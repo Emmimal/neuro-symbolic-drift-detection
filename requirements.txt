@@ -1,0 +1,20 @@
+# neuro-symbolic-drift-detection
+# Python 3.9+ required
+# No GPU needed — all experiments run on CPU
+
+# Deep learning
+torch>=2.0.0           # HybridRuleLearner, LearnableDiscretizer, RuleLearner, training loop
+
+# Numerical
+numpy>=1.24.0          # array ops, drift metric computation
+scipy>=1.11.0          # cosine distance used in RWSS
+
+# Data
+pandas>=2.0.0          # summary table, CSV export
+scikit-learn>=1.3.0    # train/val/test split, StandardScaler, F1, ROC-AUC, PR-AUC
+
+# Visualisation
+matplotlib>=3.7.0      # all 7 article figures
+
+# Utilities
+tqdm>=4.65.0           # progress bars (verbose training mode only)
